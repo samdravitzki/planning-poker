@@ -14,7 +14,8 @@
         "ms-azuretools.vscode-bicep",
         "github.vscode-github-actions",
         "eamodio.gitlens",
-        "astro-build.astro-vscode"
+        "astro-build.astro-vscode",
+        "bradlc.vscode-tailwindcss"
       ]
     }
   }

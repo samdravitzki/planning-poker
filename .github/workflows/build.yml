@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: frontend-build
-          path: build-frontend.tar.gz
+          path: ./front-end/build-frontend.tar.gz

@@ -1,23 +1,26 @@
 ---
-import background from '../assets/background.svg';
+import background from "../assets/background.svg";
 ---
 
 <div id="container" class="h-full">
-	<img id="background" class="fixed w-full h-full top-0 left-0 blur-[100px]" src={background.src} alt="" fetchpriority="high" />
-	<main class="h-full flex justify-center">
-		<section class="flex items-start flex-col justify-center p4">
-			<h1 class="text-2xl">
-				Planning poker tool is now live! 🎉
-			</h1>
-		</section>
-	</main>
-
+    <img
+        id="background"
+        class="fixed top-0 left-0 h-full w-full blur-[100px]"
+        src={background.src}
+        alt=""
+        fetchpriority="high"
+    />
+    <main class="flex h-full justify-center">
+        <section class="p4 flex flex-col items-start justify-center">
+            <h1 class="text-2xl">Planning poker tool is now live! 🎉</h1>
+        </section>
+    </main>
 </div>
 
 <style>
-
-	#container {
-		font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
-	}
-
+    #container {
+        font-family:
+            Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial,
+            sans-serif;
+    }
 </style>

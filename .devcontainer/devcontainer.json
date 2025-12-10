@@ -15,7 +15,8 @@
         "github.vscode-github-actions",
         "eamodio.gitlens",
         "astro-build.astro-vscode",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "dbaeumer.vscode-eslint"
       ]
     }
   }
